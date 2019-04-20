@@ -8,7 +8,8 @@
     "test": "ng test",
     "test:cc": "ng test --codeCoverage=true",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build:github": "ng build --prod --output-path docs --base-href https://chennamouli.github.io/ui-angular/"
   },
   "private": true,
   "dependencies": {
